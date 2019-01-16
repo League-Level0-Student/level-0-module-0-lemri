@@ -1,0 +1,10 @@
+package strings_and_dialogs;
+
+import javax.swing.JOptionPane;
+
+public class LastSummer {
+public static void main(String[] args) {
+	String name=JOptionPane.showInputDialog(null,"What's your name?");
+	JOptionPane.showMessageDialog(null, " I know that you went surfing last summer, "+ name + ". Muhahaha!");
+}
+}
