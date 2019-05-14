@@ -17,20 +17,30 @@ public class RobotSquare {
         // 3. Put the robot's pen down
     	r2d2.setSpeed(100);
     	r2d2.penDown();
-		r2d2.move(200);
-		for (int i = 0; i < 150; i++) {
+		for (int i = 0; i < 1000; i++) {
 			
-		r2d2.setRandomPenColor();
+r2d2.setPenColor(0, 0, 0);
 r2d2.turn(97);
 r2d2.move(85);
 r2d2.turn(7);
 r2d2.move(43);
-r2d2.setRandomPenColor();
 r2d2.turn(70);
-r2d2.move(173);
+r2d2.move(85);
+r2d2.setPenColor(7, 9, 145);
+r2d2.move(85);
+r2d2.setPenColor(15, 145, 22);
 r2d2.turn(81);
 r2d2.move(25);
+r2d2.setPenColor(70, 183, 5);
+r2d2.move(25);
+r2d2.setPenColor(255, 247, 22);
 r2d2.turn(65);
+r2d2.move(56);
+r2d2.turn(53);
+r2d2.move(20);
+r2d2.setPenColor(224, 6, 6);
+r2d2.move(56);
+r2d2.turn(181);
 r2d2.move(56);
 		}
         // 6. Make the robot move as fast as possible

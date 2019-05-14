@@ -4,24 +4,20 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class RobotGrafiti {
 public static void main(String[] args) {
-  
+	
   	Robot r2d2 = new Robot("mini");
   	r2d2.setSpeed(100);
-  	r2d2.penDown();
   	r2d2.turn(180);
-  	r2d2.move(150);
-  	r2d2.turn(270);
-  	r2d2.move(85);
-  	r2d2.penUp();
-  	r2d2.move(45);
- 	r2d2.penDown();
-  	r2d2.move(65);
-  	r2d2.turn(270);
-  	r2d2.move(75);
-r2d2.penUp()  	;
-r2d2.turn(270);
-  	r2d2.move(65);
-  	
-  	
+  	r2d2.move(250);
+  	r2d2.turn(180);
+	r2d2.penDown();
+
+	for (int i = 0; i < 500; i++) {
+		r2d2.setPenColor(0, 0, 0);
+  	r2d2.move(200);
+  	r2d2.setRandomPenColor();
+	r2d2.move(130);
+  	r2d2.turn(181);
+}
 }
 }
