@@ -20,26 +20,26 @@ public class RobotSquare {
 		for (int i = 0; i < 1000; i++) {
 			
 r2d2.setPenColor(0, 0, 0);
-r2d2.turn(97);
+r2d2.turn(378);
 r2d2.move(85);
-r2d2.turn(7);
-r2d2.move(43);
 r2d2.turn(70);
+r2d2.move(23);
+r2d2.turn(120);
 r2d2.move(85);
 r2d2.setPenColor(7, 9, 145);
 r2d2.move(85);
 r2d2.setPenColor(15, 145, 22);
 r2d2.turn(81);
-r2d2.move(25);
+r2d2.move(45);
 r2d2.setPenColor(70, 183, 5);
 r2d2.move(25);
 r2d2.setPenColor(255, 247, 22);
-r2d2.turn(65);
+r2d2.turn(125);
 r2d2.move(56);
-r2d2.turn(53);
+r2d2.turn(23);
 r2d2.move(20);
 r2d2.setPenColor(224, 6, 6);
-r2d2.move(56);
+r2d2.move(96);
 r2d2.turn(181);
 r2d2.move(56);
 		}
